@@ -2,31 +2,15 @@ class PagesController < ApplicationController
   def home
   end
 
-  def eat
-
+  def location
   end
 
-  def drink
-
+  def food_and_wines
   end
 
-  def experience
-
+  def about_us
   end
 
-  def shop
-
-  end
-
-  def privatize
-
-  end
-
-  def gallery
-
-  end
-
-  def booking
-
+  def menu
   end
 end
