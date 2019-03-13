@@ -1,2 +1,43 @@
-<h1>Pages#eat</h1>
-<p>Find me in app/views/pages/eat.html.erb</p>
+<% content_for(:title) do %>
+  About Us
+<% end %>
+<% content_for(:description) do %>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia molestiae ratione dignissimos, cum rerum adipisci error, quaerat ab voluptas culpa ad nobis, modi consequatur nihil officiis cupiditate saepe tenetur! Voluptatibus!
+<% end %>
+<% content_for(:og_image) do %>
+  <%= cl_image_path('la-torreta-ibiza/location/basment-4.webp') %>
+<% end %>
+<div class="bannerAboutUs">
+  <div class="banner-content">
+    <h1>About Us</h1>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div style="position: relative;">
+          <%= cl_image_tag('la-torreta-ibiza/food/fried-shrimp.webp', style: "width: 100%; margin-bottom: 50px;") %>
+          <div class="center-block text-center textCardLeft">
+            <h1><strong>Lorem</strong></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam fuga repellendus, modi unde autem atque quis eum dolorum rem perferendis. Consectetur asperiores voluptatem modi magni nam repudiandae odio nesciunt accusamus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div style="position: relative;">
+          <%= cl_image_tag('la-torreta-ibiza/location/closup-table-3.webp', style: "width: 100%; margin-bottom: 50px;") %>
+          <div class="center-block text-center textCardRight">
+            <h1><strong>Lorem</strong></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam fuga repellendus, modi unde autem atque quis eum dolorum rem perferendis. Consectetur asperiores voluptatem modi magni nam repudiandae odio nesciunt accusamus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
