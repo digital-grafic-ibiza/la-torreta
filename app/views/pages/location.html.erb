@@ -1,2 +1,61 @@
-<h1>Pages#booking</h1>
-<p>Find me in app/views/pages/booking.html.erb</p>
+<% content_for(:title) do %>
+  Location
+<% end %>
+<% content_for(:description) do %>
+  Located in the old town of Ibiza, Dalt Vila, feel the romance, experience the cultural and enjoy the beauty of this site declared a World Heritage Site by Unesco. A guaranteed formula for a night to remember.
+<% end %>
+<% content_for(:og_image) do %>
+  <%= cl_image_path('la-torreta-ibiza/banner-torreta.webp') %>
+<% end %>
+<div class="bannerLocation">
+  <div class="banner-content">
+    <h1>Location</h1>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center">
+          <h1><strong>Experience</strong></h1>
+          <%= cl_image_tag('la-torreta-ibiza/location/outside-4.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto;") %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <%= cl_image_tag('la-torreta-ibiza/location/closup-table-2.webp', style: "width: 100%;") %>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="center-block text-center">
+          <h1 style="margin-top: 150px;"><strong>Eat</strong></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="center-block text-center">
+          <h1 style="margin-top: 150px;"><strong>Drink</strong></h1>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <%= cl_image_tag('la-torreta-ibiza/location/inside-1.webp', style: "width: 100%;") %>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center">
+          <h1><strong>Relax</strong></h1>
+          <%= cl_image_tag('la-torreta-ibiza/location/outside-2.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
