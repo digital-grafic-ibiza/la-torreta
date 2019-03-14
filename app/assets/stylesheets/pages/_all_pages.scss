@@ -3,3 +3,12 @@
   position: relative;
   padding-top: 100px;
 }
+
+.emailTorreta {
+  color: #000000;
+  text-decoration: none;
+  &:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+}

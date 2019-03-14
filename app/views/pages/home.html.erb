@@ -7,10 +7,12 @@
   <div class="module-home-text">
     <div class="module-home-text-content">
       <h1>La Torreta Ibiza</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <%= image_tag "brand-torreta.jpg", alt: "brand-la-torreta", style: "width: 300px; height: 300px;" %>
+      <p>Plaça Dalt Vila, 10, 07800 <strong>Eivissa</strong></p>
+      <p><i class="fas fa-phone"></i> +34 971 300 411</p>
+      <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com", class: "emailTorreta") %></p>
+      <%= cl_image_tag("la-torreta-ibiza/brand-torreta.webp", alt: "brand-la-torreta", style: "width: 300px; height: 300px;") %>
       <div style="padding: 20px;">
-        <button type="button" class="btn btn-outline-dark" onclick="openNav()">Enter</button>
+        <button type="button" class="btn btn-outline-dark" onclick="openNav()">Entrar</button>
       </div>
     </div>
   </div>
