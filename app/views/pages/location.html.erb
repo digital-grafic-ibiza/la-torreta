@@ -2,7 +2,7 @@
   Ubicación
 <% end %>
 <% content_for(:description) do %>
-  Located in the old town of Ibiza, Dalt Vila, feel the romance, experience the cultural and enjoy the beauty of this site declared a World Heritage Site by Unesco. A guaranteed formula for a night to remember.
+  Ubicado en el casco antiguo de Ibiza, Dalt Vila, sentirá el romanza, experimentar lo cultural y disfrutará de la belleza de este sitio declarado Patrimonio de la Humanidad por la Unesco. Una fórmula garantizada por una noche para recordar.
 <% end %>
 <% content_for(:og_image) do %>
   <%= cl_image_path('la-torreta-ibiza/location/basement-2.webp') %>
@@ -14,7 +14,7 @@
 </div>
 
 <div class="wrapper">
-  <div class="container">
+  <div class="container section">
     <div class="row">
       <div class="col-sm-12">
         <div class="text-center">
@@ -24,11 +24,13 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container section">
     <div class="row">
       <div class="col-xs-12 col-md-6">
-        <%= cl_image_tag('la-torreta-ibiza/location/closup-table-2.webp', style: "width: 100%;") %>
-        <%= image_tag "https://media.giphy.com/media/159u2Wj3PBRUQ/giphy.gif", alt: "giph", style: "position: relative;bottom: 250px;left: 294px;opacity: 0.37;" %>
+        <div style="position: relative;">
+          <%= cl_image_tag('la-torreta-ibiza/location/closup-table-2.webp', style: "width: 100%;") %>
+          <%= image_tag "https://media.giphy.com/media/159u2Wj3PBRUQ/giphy.gif", alt: "giph", style: "position: absolute; bottom: 0px; left: 418px; opacity: 0.37; z-index: -1;" %>
+        </div>
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
@@ -37,7 +39,7 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container section">
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
@@ -49,7 +51,7 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="container section">
     <div class="row">
       <div class="col-xs-12">
         <div class="text-center">
