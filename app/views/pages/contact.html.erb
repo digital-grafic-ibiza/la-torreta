@@ -1,0 +1,66 @@
+<% content_for(:title) do %>
+  Contacto
+<% end %>
+<% content_for(:description) do %>
+  La Torreta Ibiza
+  Plaça Dalt Vila, 10, 07800 Eivissa
+  +34 971 300 411
+<% end %>
+<% content_for(:og_image) do %>
+  <%= cl_image_path('la-torreta-ibiza/location/basement-2.webp') %>
+<% end %>
+<div class="bannerLocation">
+  <div class="banner-content">
+    <h1>Contacto</h1>
+  </div>
+</div>
+
+<div class="wrapper">
+  <div class="container section">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center">
+          <h1><strong>Ubicado en el casco antiguo de Ibiza, Dalt Vila, sentirá el romanza, experimentar...</strong></h1>
+          <%= cl_image_tag('la-torreta-ibiza/location/outside-4.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto;") %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container section">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div style="position: relative;">
+          <%= cl_image_tag('la-torreta-ibiza/location/closup-table-2.webp', style: "width: 100%;") %>
+          <%= image_tag "https://media.giphy.com/media/159u2Wj3PBRUQ/giphy.gif", alt: "giph", style: "position: absolute; bottom: 0px; left: 418px; opacity: 0.37; z-index: -1;" %>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="center-block text-center">
+          <h1><strong>...lo cultural y disfrutará de la belleza de este sitio declarado Patrimonio de la Humanidad por la Unesco.</strong></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container section">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="center-block text-center">
+          <h1><strong>Una fórmula garantizada por una noche para recordar.</strong></h1>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <%= cl_image_tag('la-torreta-ibiza/location/inside-1.webp', style: "width: 100%;") %>
+      </div>
+    </div>
+  </div>
+  <div class="container section">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="text-center">
+          <h1><strong>Relajarse</strong></h1>
+          <%= cl_image_tag('la-torreta-ibiza/location/outside-2.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
