@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title><%= content_for?(:title) ? yield(:title) : "La Torreta Ibiza" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:discription) : 'At La Torreta Ibiza we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you ...'%>">
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : 'At La Torreta Ibiza we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you ...' %>">
     <meta name="og_image" content="<%= content_for?(:og_image) ? yield(:og_image) : cl_image_path('la-torreta-ibiza/banner.webp') %>">
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>

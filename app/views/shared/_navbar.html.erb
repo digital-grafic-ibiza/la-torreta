@@ -1,16 +1,16 @@
 <div class="navbar-wagon navbar-fixed-top">
   <!-- Logo -->
   <%= link_to root_path, class: "navbar-wagon-brand" do  %>
-    <%= cl_image_tag "la-torreta-ibiza/brand-torreta.webp", alt: "la-torreta-brand" %>
+    <%= cl_image_tag("la-torreta-ibiza/la-torreta-ibiza_brand-torreta_small.webp", :effect=>"auto_contrast", style: "height: 140px;", alt: "la-torreta-brand") %>
   <% end %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <%= link_to "Location", location_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Food and Wines", food_and_wines_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "About Us", about_us_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <%= link_to "Menu", menu_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Ubicación", location_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Comer y beber", food_and_wines_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Sobre nosotros", about_us_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to "Menú", menu_path, class: "navbar-wagon-item navbar-wagon-link" %>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -19,16 +19,16 @@
       <i class="fas fa-bars dropdown-toggle" data-toggle="dropdown" role="button"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li>
-          <%= link_to "Location", location_path, class: "navbar-wagon-item navbar-wagon-link" %>
+          <%= link_to "Ubicación", location_path, class: "navbar-wagon-item navbar-wagon-link" %>
         </li>
         <li>
-          <%= link_to "Food and Wines", food_and_wines_path, class: "navbar-wagon-item navbar-wagon-link" %>
+          <%= link_to "Comer y beber", food_and_wines_path, class: "navbar-wagon-item navbar-wagon-link" %>
         </li>
         <li>
-          <%= link_to "About Us", about_us_path, class: "navbar-wagon-item navbar-wagon-link" %>
+          <%= link_to "Sobre nosotros", about_us_path, class: "navbar-wagon-item navbar-wagon-link" %>
         </li>
         <li>
-          <%= link_to "Menu", menu_path, class: "navbar-wagon-item navbar-wagon-link" %>
+          <%= link_to "Menú", menu_path, class: "navbar-wagon-item navbar-wagon-link" %>
         </li>
       </ul>
     </div>
