@@ -61,6 +61,19 @@
   background-image: linear-gradient(-225deg, rgba(224, 230, 234, 0.6) 0%, rgba(0, 53, 90, 0.19) 50%), url('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1552393420/la-torreta-ibiza/food/fried-shrimp.webp');
 }
 
+.bannerContact {
+  color: white;
+  text-align: center;
+  height: calc(100vh - 140px);
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: 20% 110%;
+  background-image: linear-gradient(-225deg, rgba(224, 230, 234, 0.6) 0%, rgba(0, 53, 90, 0.19) 50%), url('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1552393420/la-torreta-ibiza/location/outside-2.webp');
+}
+
 .banner h1 {
   font-size: 50px;
   font-weight: bold;
