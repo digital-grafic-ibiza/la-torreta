@@ -14,7 +14,7 @@
   </head>
   <body>
     <main class="wrapper">
-      <% if current_page?(root_path) %>
+      <% if current_page?(root_path(locale: 'en')) || current_page?(root_path(locale: 'es')) %>
         <%= render 'shared/fullscreennav' %>
       <% else %>
         <%= render 'shared/navbar' %>
