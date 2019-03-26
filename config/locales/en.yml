@@ -33,3 +33,18 @@ en:
   english: "English"
   spanish: "Spanish"
   enter: "Enter"
+  location:
+    title: "Location"
+    description:
+  food_and_wines:
+    title: "Eat And Drink"
+    description:
+  about_us:
+    title: "About Us"
+    description: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
+  menu:
+    title: "Menu"
+    description:
+  contact:
+    title: "Contact"
+    description:

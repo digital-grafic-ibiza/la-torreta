@@ -14,13 +14,13 @@
   </head>
   <body>
     <main class="wrapper">
-      <% if current_page?(root_path(locale: 'en')) || current_page?(root_path(locale: 'es')) %>
+      <% if current_page?(root_path(locale: 'en')) || current_page?(root_path(locale: 'es')) || current_page?(root_path) %>
         <%= render 'shared/fullscreennav' %>
       <% else %>
         <%= render 'shared/navbar' %>
       <% end %>
       <%= yield %>
-      <% if !current_page?(root_path) %>
+      <% if !(current_page?(root_path(locale: 'en')) || current_page?(root_path(locale: 'es')) || current_page?(root_path)) %>
         <%= render 'shared/footer' %>
       <% end %>
     </main>

@@ -3,7 +3,12 @@
     <%= link_to "https://www.facebook.com/latorreta.ibiza.3", target: "_blank", rel: "nofollow" do %>
       <i class="fab fa-facebook"></i></a>
     <% end %>
-
+    <h2>
+      <%= link_to t('english'), { locale: 'en' } %>
+    </h2>
+    <h2>
+      <%= link_to t('spanish'), { locale: 'es' } %>
+    </h2>
   </div>
   <div class="footer-copyright">
     Made with <i class="fas fa-heart"></i> at <%= link_to "Digital Grafic Ibiza", "http://digitalgraficibiza.com/home/", target: "_blank", rel: "nofollow" %>
