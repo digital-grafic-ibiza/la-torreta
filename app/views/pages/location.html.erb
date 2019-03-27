@@ -1,15 +1,9 @@
-<% content_for(:title) do %>
-  Ubicación
-<% end %>
-<% content_for(:description) do %>
-  Ubicado en el casco antiguo de Ibiza, Dalt Vila, sentirá el romanza, experimentar lo cultural y disfrutará de la belleza de este sitio declarado Patrimonio de la Humanidad por la Unesco. Una fórmula garantizada por una noche para recordar.
-<% end %>
-<% content_for(:og_image) do %>
-  <%= cl_image_path('la-torreta-ibiza/location/basement-2.webp') %>
-<% end %>
+<% content_for(:title) do %><%= t('location.title') %><% end %>
+<% content_for(:description) do %><%= t('location.description') %><% end %>
+<% content_for(:og_image) do %><%= cl_image_path('la-torreta-ibiza/location/basement-2.webp') %><% end %>
 <div class="bannerLocation">
   <div class="banner-content">
-    <h1>Ubicación</h1>
+    <h1><%= t('location.title') %></h1>
   </div>
 </div>
 
@@ -18,7 +12,7 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="text-center">
-          <h1><strong>Ubicado en el casco antiguo de Ibiza, Dalt Vila, sentirá el romanza, experimentar...</strong></h1>
+          <h1><strong><%= t('location.description_part_1') %></strong></h1>
           <%= cl_image_tag('la-torreta-ibiza/location/outside-4.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto;") %>
         </div>
       </div>
@@ -33,7 +27,7 @@
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h1><strong>...lo cultural y disfrutará de la belleza de este sitio declarado Patrimonio de la Humanidad por la Unesco.</strong></h1>
+          <h1><strong><%= t('location.description_part_2') %></strong></h1>
         </div>
       </div>
     </div>
@@ -42,7 +36,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h1><strong>Una fórmula garantizada por una noche para recordar.</strong></h1>
+          <h1><strong><%= t('location.description_part_3') %></strong></h1>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">

@@ -1,15 +1,9 @@
-<% content_for(:title) do %>
-  Comer y beber
-<% end %>
-<% content_for(:description) do %>
-  Inspirados por una fusión de sabores del Mediterráneo y especias de Asia, junto con una exhaustiva lista de los mejores vinos españoles, la pasión de La Torreta por la comida y el amor por la hospitalidad les ha ganado una fidelidad de seguidores.
-<% end %>
-<% content_for(:og_image) do %>
-  <%= cl_image_path('la-torreta-ibiza/food/champaign.webp') %>
-<% end %>
+<% content_for(:title) do %><%= t('food_and_wines.title') %><% end %>
+<% content_for(:description) do %><%= t('food_and_wines.description') %><% end %>
+<% content_for(:og_image) do %><%= cl_image_path('la-torreta-ibiza/food/champaign.webp') %><% end %>
 <div class="bannerFoodAndWines">
   <div class="banner-content">
-    <h1>Comer y beber</h1>
+    <h1><%= t('food_and_wines.title') %></h1>
   </div>
 </div>
 
@@ -18,7 +12,7 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="text-center">
-          <h1><strong>Inspirados por una fusión de sabores del Mediterráneo y especias de Asia...</strong></h1>
+          <h1><strong><%= t('food_and_wines.description_part_1') %></strong></h1>
           <%= cl_image_tag('la-torreta-ibiza/food/quinoa-tower-1.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto;") %>
         </div>
       </div>
@@ -33,7 +27,7 @@
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center" style="position: relative; margin-top: 100px;">
-          <h1><strong>...junto con una exhaustiva lista de los mejores vinos españoles...</strong></h1>
+          <h1><strong><%= t('food_and_wines.description_part_2') %></strong></h1>
         </div>
       </div>
     </div>
@@ -42,7 +36,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h1><strong>...la pasión de La Torreta por la comida y el amor por la hospitalidad les ha ganado una fidelidad de seguidores.</strong></h1>
+          <h1><strong><%= t('food_and_wines.description_part_3') %></strong></h1>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -54,7 +48,7 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="text-center">
-          <h1><strong>Experimentar</strong></h1>
+          <h1><strong><%= t('food_and_wines.experience') %></strong></h1>
           <%= cl_image_tag('la-torreta-ibiza/food/set-table.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
         </div>
       </div>

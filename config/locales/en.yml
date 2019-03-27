@@ -1,33 +1,31 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  english: "English"
+  spanish: "Spanish"
+  enter: "Enter"
+  made_with_love: "Made with"
+  at: "at"
+  location:
+    title: "Location"
+    description: "Located in the old town of Ibiza, Dalt Vila, feel the romance, experience the cultural and enjoy the beauty of this site declared a World Heritage Site by Unesco. A guaranteed formula for a night to remember."
+    description_part_1: "Located in the old town of Ibiza, Dalt Vila, feel the romance..."
+    description_part_2: "...experience the cultural and enjoy the beauty of this site declared a World Heritage Site by Unesco."
+    description_part_3: "A guaranteed formula for a night to remember."
+  food_and_wines:
+    title: "Food And Wines"
+    description: "Inspired by a fusion of Mediterranean flavors and Asian spices, along with an exhaustive list of the best Spanish wines, La Torreta's passion for food and love for hospitality has earned them a loyal following."
+    description_part_1: "Inspired by a fusion of Mediterranean flavors and Asian spices..."
+    description_part_2: "...along with an exhaustive list of the best Spanish wines..."
+    description_part_3: "...La Torreta's passion for food and love for hospitality has earned them a loyal following."
+    experience: "Experience"
+  about_us:
+    title: "About Us"
+    description: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
+    description_part_1: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment."
+    description_part_2: "Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
+    atmosphere: "Atmosphere"
+  menu:
+    title: "Menu"
+    description:
+  contact:
+    title: "Contact"
+    description:
