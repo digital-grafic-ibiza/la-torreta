@@ -1,12 +1,6 @@
-<% content_for(:title) do %>
-  <%= t('about_us.title') %>
-<% end %>
-<% content_for(:description) do %>
-  <%= t('about_us.description') %>
-<% end %>
-<% content_for(:og_image) do %>
-  <%= cl_image_path('la-torreta-ibiza/location/basment-4.webp') %>
-<% end %>
+<% content_for(:title) do %><%= t('about_us.title') %><% end %>
+<% content_for(:description) do %><%= t('about_us.description') %><% end %>
+<% content_for(:og_image) do %><%= cl_image_path('la-torreta-ibiza/location/basment-4.webp') %><% end %>
 <div class="bannerAboutUs">
   <div class="banner-content">
     <h1><%= t('about_us.title') %></h1>
@@ -20,8 +14,8 @@
         <div style="position: relative;">
           <%= cl_image_tag('la-torreta-ibiza/food/fried-shrimp.webp', style: "width: 100%;") %>
           <div class="center-block text-center textCardLeft">
-            <h1><strong>Ambiente</strong></h1>
-            <p>En el restaurante La Torreta aspiramos a crear la mejor experiencia gastronómica en un ambiente deslumbrante y encantador.</p>
+            <h1><strong><%= t('about_us.atmosphere') %></strong></h1>
+            <p><%= t('about_us.description_part_1') %></p>
           </div>
         </div>
       </div>
@@ -34,7 +28,7 @@
           <%= cl_image_tag('la-torreta-ibiza/location/closup-table-3.webp', style: "width: 100%; margin-bottom: 50px;") %>
           <div class="center-block text-center textCardRight">
             <h1><strong>Dalt Vila</strong></h1>
-            <p>Ubicado en la parte más hermosa del casco antiguo de Ibiza, Dalt Vila, nuestro chef presenta una sabrosa mezcla de fusión mediterránea / asiática. Años de experiencia, nuestro servicio amable y profesional hace que nuestros clientes regresen año tras año. Ahora te esperamos...</p>
+            <p><%= t('about_us.description_part_2') %></p>
           </div>
         </div>
       </div>
