@@ -10,6 +10,9 @@ es:
     description_part_1: "Ubicado en el casco antiguo de Ibiza, Dalt Vila, sentirá el romanza... "
     description_part_2: "...experimentar lo cultural y disfrutará de la belleza de este sitio declarado Patrimonio de la Humanidad por la Unesco."
     description_part_3: "Una fórmula garantizada por una noche para recordar."
+    romance: "Romanza"
+    experience: "Experimentar"
+    night_to_remember: "Una noche para recordar"
   food_and_wines:
     title: "Comer y beber"
     description: "Inspirados por una fusión de sabores del Mediterráneo y especias de Asia, junto con una exhaustiva lista de los mejores vinos españoles, la pasión de La Torreta por la comida y el amor por la hospitalidad les ha ganado una fidelidad de seguidores."
@@ -17,6 +20,9 @@ es:
     description_part_2: "...junto con una exhaustiva lista de los mejores vinos españoles..."
     description_part_3: "...la pasión de La Torreta por la comida y el amor por la hospitalidad les ha ganado una fidelidad de seguidores."
     experience: "Experimentar"
+    meditterranean_flavors: "Sabores del Mediterráneo"
+    best_spanish_wines: "Los mejores vinos españoles"
+    passion: "La pasión por la comida"
   about_us:
     title: "Sobre nosotros"
     description: "En el restaurante La Torreta aspiramos a crear la mejor experiencia gastronómica en un ambiente deslumbrante y encantador. Ubicado en la parte más hermosa del casco antiguo de Ibiza, Dalt Vila, nuestro chef presenta una sabrosa mezcla de fusión mediterránea / asiática. Años de experiencia, nuestro servicio amable y profesional hace que nuestros clientes regresen año tras año. Ahora te esperamos..."
