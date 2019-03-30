@@ -1,7 +1,7 @@
 <% content_for(:title) do %><%= t('food_and_wines.title') %><% end %>
 <% content_for(:description) do %><%= t('food_and_wines.description') %><% end %>
 <% content_for(:og_image) do %><%= cl_image_path('la-torreta-ibiza/food/champaign.webp') %><% end %>
-<div class="bannerFoodAndWines">
+<div class="banner bannerFoodAndWines">
   <div class="banner-content">
     <h1><%= t('food_and_wines.title') %></h1>
   </div>
@@ -12,10 +12,15 @@
     <div class="row">
       <div class="col-sm-12">
         <div class="text-center">
-          <h1><strong><%= t('food_and_wines.description_part_1') %></strong></h1>
+          <h2><strong><%= t('food_and_wines.description_part_1') %></strong></h2>
           <%= cl_image_tag('la-torreta-ibiza/food/quinoa-tower-1.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto;") %>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="banner bannerSection" style="background-image: linear-gradient(-225deg, rgba(224, 230, 234, 0.6) 0%, rgba(0, 53, 90, 0.19) 50%), url('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1552393420/la-torreta-ibiza/location/outside-4.webp');">
+    <div class="banner-content">
+      <h1><%= t('food_and_wines.meditterranean_flavors') %></h1>
     </div>
   </div>
   <div class="container section">
@@ -27,16 +32,21 @@
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center" style="position: relative; margin-top: 100px;">
-          <h1><strong><%= t('food_and_wines.description_part_2') %></strong></h1>
+          <h2><strong><%= t('food_and_wines.description_part_2') %></strong></h2>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="banner bannerSection" style="background-image: linear-gradient(-225deg, rgba(224, 230, 234, 0.6) 0%, rgba(0, 53, 90, 0.19) 50%), url('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1552393420/la-torreta-ibiza/location/inside-1.webp');">
+    <div class="banner-content">
+      <h1><%= t('food_and_wines.best_spanish_wines') %></h1>
     </div>
   </div>
   <div class="container section">
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h1><strong><%= t('food_and_wines.description_part_3') %></strong></h1>
+          <h2><strong><%= t('food_and_wines.description_part_3') %></strong></h2>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -44,12 +54,22 @@
       </div>
     </div>
   </div>
+  <div class="banner bannerSection" style="background-image: linear-gradient(-225deg, rgba(224, 230, 234, 0.6) 0%, rgba(0, 53, 90, 0.19) 50%), url('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1552393420/la-torreta-ibiza/location/closup-table-4.webp');">
+    <div class="banner-content">
+      <h1><%= t('food_and_wines.passion') %></h1>
+    </div>
+  </div>
   <div class="container section">
     <div class="row">
       <div class="col-xs-12">
         <div class="text-center">
-          <h1><strong><%= t('food_and_wines.experience') %></strong></h1>
-          <%= cl_image_tag('la-torreta-ibiza/food/set-table.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
+          <div class="text-center" style="padding: 20px;">
+            <h1>La Torreta Ibiza</h1>
+            <p>Plaça Dalt Vila, 10, 07800 <strong>Eivissa</strong></p>
+            <p><i class="fas fa-phone"></i> +34 971 300 411</p>
+            <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com", class: "emailTorreta") %></p>
+          </div>
+          <%= cl_image_tag('la-torreta-ibiza/location/basement-4.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
         </div>
       </div>
     </div>
