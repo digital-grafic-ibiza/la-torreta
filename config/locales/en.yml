@@ -15,8 +15,8 @@ en:
     night_to_remember: "A Night To Remember"
   food_and_wines:
     title: "Food And Wines"
-    description: "Inspired by a fusion of Mediterranean flavors and Asian spices, along with an exhaustive list of the best Spanish wines, La Torreta's passion for food and love for hospitality has earned them a loyal following."
-    description_part_1: "Inspired by a fusion of Mediterranean flavors and Asian spices..."
+    description: "Inspired by a fusion of Mediterranean flavors, along with an exhaustive list of the best Spanish wines, La Torreta's passion for food and love for hospitality has earned them a loyal following."
+    description_part_1: "Inspired by a fusion of Mediterranean flavors..."
     description_part_2: "...along with an exhaustive list of the best Spanish wines..."
     description_part_3: "...La Torreta's passion for food and love for hospitality has earned them a loyal following."
     meditterranean_flavors: "Mediterranean Flavors"
@@ -26,7 +26,7 @@ en:
     title: "About Us"
     description: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
     description_part_1: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment."
-    description_part_2: "Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
+    description_part_2: "Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
     atmosphere: "Atmosphere"
   menu:
     title: "Menu"

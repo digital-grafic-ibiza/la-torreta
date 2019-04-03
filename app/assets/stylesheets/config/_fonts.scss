@@ -3,14 +3,22 @@
 
 // Define fonts for body and headers
 $headers-font: 'Amatic SC', cursive, "Helvetica", "sans-serif";
-$body-font:  'Oswald', sans-serif, "Helvetica", "sans-serif";
+// $body-font:  'Oswald', sans-serif, "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Gill Sans Light";
+  src: font-url('GillSansStd-Light.otf');
+  // src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+  //      font-url('FontFile.woff') format('woff'),
+  //      font-url('FontFile.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Monica Script";
+  src: font-url('MonicaScript.ttf');
+  // src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
+  //      font-url('FontFile.woff') format('woff'),
+  //      font-url('FontFile.ttf') format('truetype')
+}
+$body-font: 'Gill Sans Light', "Helvetica", "sans-serif";
