@@ -46,7 +46,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h2><strong><%= t('location.description_part_3') %></strong></h2>
+          <h2><strong><%= t('location.description_part_3') %></strong></h2>X
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -69,7 +69,9 @@
             <p><i class="fas fa-phone"></i> +34 971 300 411</p>
             <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com", class: "emailTorreta") %></p>
           </div>
-          <%= cl_image_tag('la-torreta-ibiza/location/outside-2.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 50px;") %>
+          <%= cl_image_tag('la-torreta-ibiza/location/outside-2.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 0px;") %>
+          <h2><strong><%= t('location.description_part_4') %></strong></h2>
+          <h3><strong><%= t('location.marius') %></strong></h3>
         </div>
       </div>
     </div>

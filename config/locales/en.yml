@@ -10,6 +10,8 @@ en:
     description_part_1: "Located in the old town of Ibiza, Dalt Vila, feel the romance..."
     description_part_2: "...experience the cultural and enjoy the beauty of this site declared a World Heritage Site by Unesco."
     description_part_3: "A guaranteed formula for a night to remember."
+    description_part_4: '"The terraces are the stalls where you can observe the great theater of the world"'
+    marius: "Màrius Carol, Director of the Vanguardia"
     romance: "Romance"
     experience: "Experience"
     night_to_remember: "A Night To Remember"
@@ -26,7 +28,7 @@ en:
     title: "About Us"
     description: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment. Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean / Asian fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
     description_part_1: "At La Torreta restaurant we aspire to create the best dining experience in a dazzling and charming environment."
-    description_part_2: "Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef presents a tasty mix of Mediterranean fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
+    description_part_2: "Located in the most beautiful part of the old town of Ibiza, Dalt Vila, our chef, David Roman, presents a tasty mix of Mediterranean fusion. Years of experience, our friendly and professional service makes our clients come back year after year. Now we wait for you..."
     atmosphere: "Atmosphere"
   menu:
     title: "Menu"
