@@ -5,10 +5,12 @@
 }
 
 .emailTorreta {
-  color: #000000;
-  text-decoration: none;
-  &:hover {
+  a {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
+    &:hover {
+      color: #000000;
+      text-decoration: underline;
+    }
   }
 }
