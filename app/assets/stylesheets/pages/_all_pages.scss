@@ -14,3 +14,178 @@
     }
   }
 }
+
+.pageImage {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-height: 801px) {
+  p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .footer-copyright {
+    font-size: 24px;
+    a {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 801px) {
+  p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .footer-copyright {
+    font-size: 24px;
+    a {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .footer-copyright {
+    font-size: 16px;
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 415px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .footer-copyright {
+    font-size: 16px;
+    a {
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 361px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .footer-copyright {
+    font-size: 10px;
+    a {
+      font-size: 10px;
+    }
+  }
+  .navbar-wagon {
+    height: 120px;
+    padding: 0px 30px 0px 30px;
+  }
+  .navbar-wagon-link {
+    text-shadow: none;
+  }
+  .menuList {
+    padding-left: 0;
+  }
+  .navbar-wagon-brand img {
+      height: 120px;
+  }
+  #cardLeft {
+    padding: 0px;
+  }
+  #cardLeft {
+      padding: 0px;
+    }
+  #cardRight {
+      padding: 0px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  .footer-copyright {
+    font-size: 10px;
+    a {
+      font-size: 10px;
+    }
+  }
+  .navbar-wagon {
+    height: 120px;
+    padding: 0px 30px 0px 30px;
+  }
+  .navbar-wagon-link {
+    text-shadow: none;
+  }
+  .menuList {
+    padding-left: 0;
+  }
+  .navbar-wagon-brand img {
+      height: 120px;
+  }
+  #cardLeft {
+    padding: 0px;
+  }
+  #cardLeft {
+      padding: 0px;
+    }
+  #cardRight {
+      padding: 0px;
+    }
+}
