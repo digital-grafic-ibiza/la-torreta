@@ -53,6 +53,20 @@
             </li>
           </ul>
         </div>
+        <div class="center-block text-center menuCard">
+          <ul class="menuList footNotes">
+            <li>
+              <%= link_to cl_image_path('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1557231865/la-torreta-ibiza/wine_menu.pdf'), target: :_blank do %>
+                <h3><%= t('menu.wine_menu') %></h3>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to cl_image_path('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1557231865/la-torreta-ibiza/desert_menu.pdf'), target: :_blank do %>
+                <h3><%= t('menu.dessert_menu') %></h3>
+              <% end %>
+            </li>
+          </ul>
+        </div>
       </div>
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center menuCard" style="margin-bottom: 50px;">

@@ -50,6 +50,8 @@ es:
     main_courses_item_6: "Lomo alto de Black Angus servido con patatas bravas caseras"
     supplements: "* Suplemento: Pan, alioli y aceitunas 2,00 PAX"
     tax_html: <p>* IVA Incluido</p><p>Reglamento (EU) Nº 1169/2011</p><p>Este establecimiento dispone de información en materia de alergias e intolerancias alimentarias, soliciten información a nuestro personal, muchas gracias</p>
+    wine_menu: "Vinos"
+    dessert_menu: "Postres"
     our_starters: "NUESTROS ENTRANTES"
     our_starters_item_1: "Croquetas caseras de jamón ibérico"
     our_starters_item_2: "Tabulé de quinoa con pesto de tomate seco y aguacate"

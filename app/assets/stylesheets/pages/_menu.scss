@@ -9,6 +9,14 @@
 .menuList {
   list-style: none;
   margin-left: 0;
+  li > a {
+    color: black;
+    font-size: 24px;
+    &:hover {
+      text-decoration: none;
+      color: #f0c447;
+    }
+  }
 }
 
 .footNotes {
