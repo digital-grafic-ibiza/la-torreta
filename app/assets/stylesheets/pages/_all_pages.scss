@@ -20,6 +20,11 @@
   height: auto;
 }
 
+.imgBrand {
+  width: 160px;
+}
+
+
 @media screen and (max-height: 801px) {
   p {
     font-size: 16px;
@@ -60,26 +65,17 @@
       font-size: 24px;
     }
   }
-}
-
-@media screen and (max-width: 415px) {
-  p {
-    font-size: 12px;
+  .module-home-text {
+    width: 350px;
   }
-  h1 {
-    font-size: 32px;
+  .imgBrand {
+    width: 120px;
   }
-  h2 {
-    font-size: 16px;
+  .btn {
+    font-size: 24px;
   }
-  h3 {
-    font-size: 16px;
-  }
-  .footer-copyright {
-    font-size: 16px;
-    a {
-      font-size: 16px;
-    }
+  .overlay a {
+    font-size: 48px;
   }
 }
 
@@ -101,6 +97,51 @@
     a {
       font-size: 16px;
     }
+  }
+  .module-home-text {
+    width: 200px;
+  }
+  .imgBrand {
+    width: 80px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .overlay a {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .footer-copyright {
+    font-size: 16px;
+    a {
+      font-size: 16px;
+    }
+  }
+  .module-home-text {
+    width: 200px;
+  }
+  .imgBrand {
+    width: 80px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .overlay a {
+    font-size: 40px;
   }
 }
 
@@ -145,6 +186,18 @@
   #cardRight {
       padding: 0px;
     }
+  .module-home-text {
+    width: 200px;
+  }
+  .imgBrand {
+    width: 80px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .overlay a {
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 321px) {
@@ -188,4 +241,16 @@
   #cardRight {
       padding: 0px;
     }
+  .module-home-text {
+    width: 200px;
+  }
+  .imgBrand {
+    width: 80px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .overlay a {
+    font-size: 40px;
+  }
 }
