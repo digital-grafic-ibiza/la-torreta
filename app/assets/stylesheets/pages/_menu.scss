@@ -11,10 +11,10 @@
   margin-left: 0;
   li > a {
     color: black;
-    font-size: 24px;
     &:hover {
       text-decoration: none;
       color: #f0c447;
+      text-shadow: 1px 1px 2px #5c5c5c;
     }
   }
 }

@@ -46,7 +46,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-6">
         <div class="center-block text-center">
-          <h2><strong><%= t('location.description_part_3') %></strong></h2>X
+          <h2><strong><%= t('location.description_part_3') %></strong></h2>
         </div>
       </div>
       <div class="col-xs-12 col-md-6">
@@ -63,11 +63,11 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="text-center">
-          <div class="text-center" style="padding: 20px;">
+          <div class="text-center emailTorreta" style="padding: 20px;">
             <h1>La Torreta Ibiza</h1>
             <p>Plaça Dalt Vila, 10, 07800 <strong>Eivissa</strong></p>
-            <p><i class="fas fa-phone"></i> +34 971 300 411</p>
-            <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com", class: "emailTorreta") %></p>
+            <p><i class="fas fa-phone"></i> <span ><%= tel_to('+34 971 300 411') %></span> </p>
+            <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com") %></p>
           </div>
           <%= cl_image_tag('la-torreta-ibiza/location/outside-2.webp', :width=>1500, :height=>800, :gravity=>"south", :crop=>"fill", class: "img-fluid", style: "max-width: 100%; height: auto; margin-bottom: 0px;") %>
           <h2><strong><%= t('location.description_part_4') %></strong></h2>
