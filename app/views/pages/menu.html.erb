@@ -5,7 +5,7 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia molestiae ratione dignissimos, cum rerum adipisci error, quaerat ab voluptas culpa ad nobis, modi consequatur nihil officiis cupiditate saepe tenetur! Voluptatibus!
 <% end %>
 <% content_for(:og_image) do %>
-  <%= cl_image_path('la-torreta-ibiza/food/fried-shrimp.png') %>
+  <%= cl_image_path('food/fried-shrimp.png') %>
 <% end %>
 <div class="banner bannerMenu">
   <div class="banner-content">
@@ -56,12 +56,12 @@
         <div class="center-block text-center menuCard">
           <ul class="menuList footNotes">
             <li>
-              <%= link_to cl_image_path('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1557231865/la-torreta-ibiza/wine_menu.pdf'), target: :_blank do %>
+              <%= link_to cl_image_path('https://res.cloudinary.com/la-torreta-ibiza/image/upload/v1559210563/wine_menu.pdf'), target: :_blank do %>
                 <h1><%= t('menu.wine_menu') %></h1>
               <% end %>
             </li>
             <li>
-              <%= link_to cl_image_path('https://res.cloudinary.com/dsc0y1kmt/image/upload/v1557231865/la-torreta-ibiza/desert_menu.pdf'), target: :_blank do %>
+              <%= link_to cl_image_path('https://res.cloudinary.com/la-torreta-ibiza/image/upload/v1559210563/desert_menu.pdf'), target: :_blank do %>
                 <h1><%= t('menu.dessert_menu') %></h1>
               <% end %>
             </li>
