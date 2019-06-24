@@ -14,6 +14,6 @@ class PagesController < ApplicationController
   def menu
   end
 
-  def contact
+  def reserve
   end
 end

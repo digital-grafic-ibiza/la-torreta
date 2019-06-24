@@ -68,6 +68,7 @@
             <p>Plaça Dalt Vila, 10, 07800 <strong>Eivissa</strong></p>
             <p><i class="fas fa-phone"></i> <span ><%= tel_to('+34 971 300 411') %></span> </p>
             <p><%= mail_to("info@latorretaibiza.com", "info@latorretaibiza.com") %></p>
+            <%= link_to t('contact.reserve'), reserve_path, class: "reserveLink" %>
           </div>
           <%= cl_image_tag('location/outside-2.jpg', class: "img-fluid pageImage") %>
           <h2><strong><%= t('location.description_part_4') %></strong></h2>
