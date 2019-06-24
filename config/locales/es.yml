@@ -80,5 +80,6 @@ es:
     pastas_and_wok_item_4: "Tortelli de tomate y mozzarella"
     pastas_and_wok_item_5: "Lasagna de setas, gambas y cangrejo con crema de ostras"
   contact:
-    title: "Contacto"
+    title: "Reservas"
     description:
+    reserve: "Reserva su mesa"

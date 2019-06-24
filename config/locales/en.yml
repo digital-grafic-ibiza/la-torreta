@@ -79,5 +79,6 @@ en:
     pastas_and_wok_item_4: "Tortelli stuffed with tomato and mozzarella"
     pastas_and_wok_item_5: "Mushrooms, prawns and crab lasagna with oyster sauce"
   contact:
-    title: "Contact"
+    title: "Reserve"
     description:
+    reserve: "Reserve Your Table"
