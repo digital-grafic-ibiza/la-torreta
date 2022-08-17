@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-ruby '2.6.1'
+ruby '3.1.2'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg'
 gem 'puma'
-gem 'rails', '~> 5.2', '>= 5.2.2.1'
+gem 'rails', '~> 6.1'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -16,6 +16,10 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary', '~> 1.9.1'
+gem 'net-smtp', require: false
+gem 'net-pop', require: false
+gem 'net-imap', require: false
+gem 'middleman', github: 'middleman/middleman'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
