@@ -76,3 +76,6 @@ es:
     title: "Reservas"
     description:
     reserve: "Reserva su mesa"
+    iframe_html: "<iframe id='restaurante-latorretaibiza' title='Reservas'
+src='https://www.covermanager.com/reservation/module_restaurant/restaurante-latorretaibiza/spanish' frameborder='0' height='550' width='100%'
+onload='iFrameResize();'></iframe>"
