@@ -5,7 +5,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
   background-size: cover !important;
   background-position: 20% 100%;
   background-image: linear-gradient(-225deg, rgba(82, 82, 82, 0.66) 0%, rgba(0, 56, 90, 0.24) 50%), url("https://res.cloudinary.com/dsc0y1kmt/image/upload/c_scale,h_2000,q_50,w_3000/v1552393572/la-torreta-ibiza/location/outside-4.png");
@@ -28,11 +28,11 @@
   color: white;
   display: block;
   transition: 0.3s;
-  font-family: 'Amatic SC', cursive, "Helvetica", "sans-serif";
   font-weight: bold;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #000000;
   text-shadow: 1px 1px 2px white;
 }
@@ -45,11 +45,17 @@
 }
 
 @media screen and (max-height: 450px) {
-  .overlay {overflow-y: auto;}
-  .overlay a {font-size: 20px}
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px
+  }
+
   .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }

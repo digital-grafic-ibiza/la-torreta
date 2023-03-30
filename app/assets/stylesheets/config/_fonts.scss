@@ -1,8 +1,8 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Oswald");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 // Define fonts for body and headers
-$headers-font: 'Amatic SC', cursive, "Helvetica", "sans-serif";
+$headers-font: 'Raleway', sans-serif, "Helvetica", "sans-serif";
 // $body-font:  'Oswald', sans-serif, "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
@@ -21,4 +21,5 @@ $headers-font: 'Amatic SC', cursive, "Helvetica", "sans-serif";
   //      font-url('FontFile.woff') format('woff'),
   //      font-url('FontFile.ttf') format('truetype')
 }
+
 $body-font: 'Gill Sans Light', "Helvetica", "sans-serif";
